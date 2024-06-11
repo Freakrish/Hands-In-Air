@@ -68,7 +68,7 @@ if __name__== "__main__":
          speak(results)
       elif 'play music ' in query:
 
-         music_dir='C:\\Users\\harsh\\Downloads\\music folder'
+         music_dir='C:\\Users\\rishi\\Downloads\\music folder'
          songs =os.listdir(music_dir)
          print(songs)
          r=random.randint(1,8)
