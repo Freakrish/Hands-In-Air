@@ -80,7 +80,7 @@ def execute_command(query):
         speak(results)
     elif 'play music' in query:
         # your play music code here
-        music_dir='C:\\Users\\harsh\\Downloads\\music folder'
+        music_dir='C:\\Users\\rishi\\Downloads\\music folder'
         songs =os.listdir(music_dir)
         print(songs)
         r=random.randint(1,8)
